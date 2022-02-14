@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: outfit;
+}
+
+@font-face {
+    font-family: 'outfit';
+    src: url(../fonts/Outfit.ttf);
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+
+.bg{
+    width: 300px;
+    height: 430px;
+    background-color: hsl(0, 0%, 100%);
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: -1px 0px 30px -1px rgba(0,0,0,0.24);
+}
+
+.container{
+    width:90%; 
+    height:250px; 
+    margin: 0 auto; 
+    margin-top: 5%; 
+    margin-bottom: 5%; 
+    border-radius: 10px;
+}
+
+.image{
+    width: 100%;
+    border-radius: 10px;
+}
+
+h2{
+    width: 88%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    font-size: 24px;
+}
+
+p{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: thin;
+}
+
+
+
